@@ -3,7 +3,7 @@ import mediapipe as mp
 
 # Kamera bağlantısını açın
 cam = cv2.VideoCapture(0)
-
+#video kaydı aşağıda gözüküyor
 # Video kaydı için ayarlar
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 width, height = 640, 480
