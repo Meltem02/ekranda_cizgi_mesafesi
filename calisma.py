@@ -13,7 +13,6 @@ out = cv2.VideoWriter("dronegri.avi", fourcc, 30.0, (width, height))
 mpHands = mp.solutions.hands
 hands = mpHands.Hands()
 mpDraw = mp.solutions.drawing_utils
-
 while cam.isOpened():
     ret, frame = cam.read()
     if not ret:
